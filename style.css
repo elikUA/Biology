@@ -1,0 +1,100 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: skyblue;
+}
+.header {
+    background: skyblue;
+    width:100%;
+    height: 100%;
+}
+.container {
+    background: rgb(255, 255, 255);
+    width: 1000px;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+ul {
+    position: absolute;
+    position: fixed;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.list {
+    background: rgb(138, 87, 185);
+    height: 200px;
+    width: 170px;
+    position: absolute;
+    position: fixed;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10px;
+    border-radius: 20px;
+}
+.list h3 {
+    font-size: 15px;
+    left: 30px;
+    position: absolute;
+    position: fixed;
+    top: 15px;
+}
+li:hover {
+    background: skyblue;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.header-logotip {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://img2.akspic.ru/originals/0/5/3/4/6/164350-more-voda-oblako-poslesvechenie-okruzhayushchaya_sreda-1920x1080.jpg);
+    background-position: bottom;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h2 {
+    text-align: center;
+    margin: 5px 0;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.text {
+    pad: 0 10px;
+}
+.information {
+    padding: 0 10px;
+}
+.facts {
+    padding: 0 10px;
+}
+.facts img {
+    border-radius: 30px;
+    padding: 10px 0;
+}
+.container1 {
+    background: rgb(165, 149, 236);
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
